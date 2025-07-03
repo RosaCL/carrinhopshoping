@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Scope+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-family: "Scope One", serif;
+}
+
+html{
+    font-size: 62.5%;
+}
