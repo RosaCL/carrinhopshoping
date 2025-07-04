@@ -3,19 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrinho de shopping</title>
+    <title>Costureza (Administrador)</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/FrontEnd/ressources/css/style.css">
 </head>
 <body>
-    <header>
-        <img src="/FrontEnd/ressources/img/costureza.png" alt="">
-        <nav>
-            <a href="#">Adicionar produtos <i class="fa-solid fa-plus"></i></a>
-            <a href="#">Ver produtos <i class="fa-regular fa-eye"></i></a>
-            <a href="#">Carrinho <i class="fa-solid fa-cart-shopping"></i></a>
-            <a href="https://www.youtube.com/watch?v=MWIUWBWbNV8" target="_blank">Vídeo</a>
-        </nav>
-    </header>
+    <?php include 'includes/header.php';?>
 </body>
 </html>
