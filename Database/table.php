@@ -2,7 +2,7 @@
 require_once '/laragon/www/carrinhopshoping/BackEnd/config.php';
 
 $pdo->exec("CREATE TABLE IF NOT EXISTS products (
-id INT,
+id INT PRIMARY KEY AUTO_INCREMENT,
 name VARCHAR (255) NOT NULL,
 price FLOAT NOT NULL,
 image VARCHAR (255) NOT NULL
@@ -10,7 +10,7 @@ image VARCHAR (255) NOT NULL
 
 
 $pdo->exec("CREATE TABLE IF NOT EXISTS cart (
-id INT,
+id INT PRIMARY KEY AUTO_INCREMENT,
 name VARCHAR (255) NOT NULL,
 price FLOAT NOT NULL,
 image VARCHAR (255) NOT NULL,
@@ -18,7 +18,7 @@ qty INT
 )");
 
 $pdo->exec("CREATE TABLE IF NOT EXISTS orders (
-id INT,
+id INT PRIMARY KEY AUTO_INCREMENT,
 name VARCHAR (255) NOT NULL,
 number int NOT NULL,
 emaiL VARCHAR (255) UNIQUE NOT NULL,

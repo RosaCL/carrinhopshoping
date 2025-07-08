@@ -1,3 +1,7 @@
+<?php 
+require_once '/laragon/www/carrinhopshoping/BackEnd/config.php';
+include '/laragon/www/carrinhopshoping/BackEnd/cadastro.php';
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -8,9 +12,17 @@
     <link rel="stylesheet" href="./ressources/css/style.css">
 </head>
 <body>
+    <?php
+    if(isset($message)){
+        foreach($message as $message){
+            echo '<div class="message"><span>' .$message. '</span> <i class="fas fa-times" onclick="this.parentElement.style.display = `none`;"></i></div>';
+        }
+    }
+    ?>
     <?php include 'includes/header.php';?>
     <div class="container">
         <section>
+
             <form action="" method="post" class="add-product-form" enctype="multipart/form-data">
                 <h3>Adicione um novo produto</h3>
                 <input type="text" name="p_name" id="" placeholder="Nome do produto" required class="box">

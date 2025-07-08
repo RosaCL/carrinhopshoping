@@ -129,6 +129,34 @@ section{
 .option-btn{
     background: var(--blue);
 }
+.message{
+    background: var(--blue);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    border-radius: .5rem;
+    background: var(--white);
+    padding: 1.5rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+.message span{
+    font-size: 2rem;
+    color: var(--bg);
+}
+.message i{
+    font-size: 2.5rem;
+    color: var(--bg);
+    cursor: pointer;
+}
+.message i:hover{
+    color: var(--red);
+}
 
 
 @media(max-width:991px){
