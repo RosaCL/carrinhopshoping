@@ -44,6 +44,9 @@ html{
 }
 .header .flex .logo{
     margin-right: auto;
+    font-size: 2rem;
+    color: var(--white);
+    
 }
 .header .flex .navbar a{
     margin-left: 2rem;

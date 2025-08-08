@@ -1,6 +1,6 @@
     <header class="header">
         <div class="flex">
-            <img class="logo" src="/FrontEnd/ressources/img/costureza.png" alt="">
+            <img class="logo" src="../ressources/img/costureza.png" alt="">
             <nav class="navbar">
                 <a href="admin.php">Adicionar produtos <i class="fa-solid fa-plus"></i></a>
                 <a href="products.php">Ver produtos <i class="fa-regular fa-eye"></i></a>

@@ -31,6 +31,27 @@ include '/laragon/www/carrinhopshoping/BackEnd/cadastro.php';
                 <input type="submit" name="add_product" value="Adicionar produto" class="btn">
             </form>
         </section>
+        <section class="display-product-table">
+            <table>
+                <thead>
+                    <th>Imagem</th>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                    <th>Ações</th>                    
+                </thead>
+                <tbody>
+                    38:00
+                    <?php
+                        $select_products = $stmt ("SELECT * FROM `products`");
+                        if(mysqli_num_rows($select_products)>0){
+                            while($row=mysqli_fetch_assoc($select_products)){
+
+                            };
+                        }
+                    ?>
+                </tbody>
+            </table>
+        </section>
     </div>
     <script src="./ressources/js/script.js"></script>
 </body>
